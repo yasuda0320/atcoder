@@ -9,7 +9,7 @@ def modpow(a, n, mod)
   res
 end
 
-# a^{-1} mod を計算
+# a^(-1) mod を計算
 def modinv(a, mod)
   modpow(a, mod - 2, mod)
 end
